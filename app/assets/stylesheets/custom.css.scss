@@ -30,10 +30,6 @@ h1 {
    line-height: 30px;
 }
 
-.navbar-brand a {
-    display: block;
-}
-
 .navbar-homelink {
     height: 60px;
     width: 165px;
@@ -54,7 +50,7 @@ h1 {
     font-weight: bold
 }
 
- footer {
+.footer {
    margin-top: 20px; 
    padding-top: 5px;  
    color: #777;
@@ -69,13 +65,14 @@ html, body {
  }
  
  footer a:hover {
-   color: #222;
+   color: white;
  }  
 
 .container {
-    min-width: max;
     min-height: 70%;
     margin-top: 60px;
+    width: 100%;
+    height: auto;
 }
  
  footer ul {
@@ -86,7 +83,6 @@ html, body {
    height: 431px;
    width: 900px;
    background-image: asset-url('family.jpg');  
-   background-size: contain;
    background-repeat: no-repeat;
    margin-left: auto;
    margin-right: auto;
