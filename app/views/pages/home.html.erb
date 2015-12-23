@@ -1,0 +1,38 @@
+<div class="jumbotron">
+    <div class="home_button">
+    <% if logged_in? %>
+          <%= link_to "Go to my events", user_path(current_user), class: "btn btn-primary btn-xlarge" %>  
+    <% else %>
+          <%= link_to "Sign up free", signup_path, class: "btn btn-primary btn-xlarge" %>  
+    <% end %>
+    </div>
+</div>
+
+<div class="jumbotron2">
+    <div class="jumbo-element">
+        <h2><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Family Reunions</h2>
+        <ul>
+            <li>Plan who will bring what dish</li>
+            <li>Budget for the event</li>
+            <li>Coordinate event details with others</li>
+        </ul>
+    </div>
+    <div class="jumbo-element">
+        <h2><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Holidays & Birthdays</h2>
+        <ul>
+            <li>View others' gift lists and poke them for more ideas</li>
+            <li>Share your wish list</li>
+            <li>Ensure no one buys the same gift for the same person</li>
+            <li>Assign secret santas</li>
+            <li>Recommend gifts for others without spoiling the surprise</li>
+        </ul>
+    </div>
+    <div class="jumbo-element">
+        <h2><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Personal Preferences</h2>
+        <ul>
+            <li>Gift recommendation system makes creating your wish list simple</li>
+            <li>Share food and drink preferences</li>
+            <li>Budget your holiday spending</li>
+        </ul>
+    </div>
+</div>
